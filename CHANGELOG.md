@@ -1,5 +1,12 @@
 ## Changelog
 
+##### 9.21.2+automattic
+
+- 🎉 Add "jsx" config (minimal transpilation preserving JSX) and use it exclusively in package.
+- 🎉 Remove `@babel/runtime` and `prop-types` runtime dependencies.
+- 🎉 Remove dependency on `dom-helpers` and copy the relevant code from that project over to `utils/`. This is done to avoid a transitive dependency on `@babel/runtime`.
+- 🎉 Add `"sideEffects": false` to package.json.
+
 ##### 9.21.2
 
 - 🎉 Update prettier ([wuweiweiwu](https://github.com/wuweiweiwu) - [#1455](https://github.com/bvaughn/react-virtualized/pull/1455))
