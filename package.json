@@ -3,7 +3,7 @@
   "description": "React components for efficiently rendering large, scrollable lists and tabular data",
   "author": "Brian Vaughn <brian.david.vaughn@gmail.com>",
   "user": "bvaughn",
-  "version": "9.21.2+automattic",
+  "version": "9.21.2",
   "homepage": "https://github.com/automattic/react-virtualized",
   "main": "dist/jsx/index.js",
   "module": "dist/jsx/index.js",

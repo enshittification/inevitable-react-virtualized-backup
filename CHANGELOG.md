@@ -1,6 +1,6 @@
 ## Changelog
 
-##### 9.21.2+automattic
+##### Changes in @automattic/react-virtualized fork
 
 - 🎉 Add "jsx" config (minimal transpilation preserving JSX) and use it exclusively in package.
 - 🎉 Remove `@babel/runtime` and `prop-types` runtime dependencies.
