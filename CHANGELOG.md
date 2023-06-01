@@ -1,9 +1,5 @@
 ## Changelog
 
-##### 9.22.4
-
-- Update peer dependencies to allow React 18 - [#1625](https://github.com/bvaughn/react-virtualized/pull/1625))
-
 ##### Changes in @automattic/react-virtualized fork
 
 - 🎉 Add "jsx" config (minimal transpilation preserving JSX) and use it exclusively in package.
@@ -12,6 +8,9 @@
 - 🎉 Add `"sideEffects": false` to package.json.
 - 🎉 Add pre and post steps to testing, in order to build the required UMD version. Since we're not shipping it, we need to specially build it for the tests.
 
+##### 9.22.4
+
+- Update peer dependencies to allow React 18 - [#1625](https://github.com/bvaughn/react-virtualized/pull/1625))
 ##### 9.22.3
 
 - Use DOM API instead of creating Trusted Types policy to append a markup ([shhnjk](https://github.com/shhnjk) - [#1627](https://github.com/bvaughn/react-virtualized/pull/1627))
