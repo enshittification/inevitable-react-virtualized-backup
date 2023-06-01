@@ -1,20 +1,24 @@
 ## Changelog
 
-##### NEXT
+##### 9.22.4
 
-- Update peer dependencies to allow React 17 ([levenleven](https://github.com/levenleven) - [#1625](https://github.com/bvaughn/react-virtualized/pull/1625))
+- Update peer dependencies to allow React 18 - [#1625](https://github.com/bvaughn/react-virtualized/pull/1625))
+
+##### Changes in @automattic/react-virtualized fork
+
+- 🎉 Add "jsx" config (minimal transpilation preserving JSX) and use it exclusively in package.
+- 🎉 Remove `@babel/runtime` and `prop-types` runtime dependencies.
+- 🎉 Remove dependency on `dom-helpers` and copy the relevant code from that project over to `utils/`. This is done to avoid a transitive dependency on `@babel/runtime`.
+- 🎉 Add `"sideEffects": false` to package.json.
+- 🎉 Add pre and post steps to testing, in order to build the required UMD version. Since we're not shipping it, we need to specially build it for the tests.
+
+##### 9.22.3
+
 - Use DOM API instead of creating Trusted Types policy to append a markup ([shhnjk](https://github.com/shhnjk) - [#1627](https://github.com/bvaughn/react-virtualized/pull/1627))
 - Fix bug in WindowScroller::updatePosition ([yamadapc](https://github.com/yamadapc) - [#1642](https://github.com/bvaughn/react-virtualized/pull/1642), [#1648](https://github.com/bvaughn/react-virtualized/pull/1648))
 - Fix babel tranform es error ([fupengl](https://github.com/fupengl) - [#1651](https://github.com/bvaughn/react-virtualized/pull/1651))
 - Fix issue with unused import being emitted ([mewhhaha](https://github.com/mewhhaha) - [#1635](https://github.com/bvaughn/react-virtualized/pull/1635))
 - Fix grid roles for accessbility ([asnewman](https://github.com/asnewman) - [#1624](https://github.com/bvaughn/react-virtualized/pull/1624))
-
-##### 9.22.4
-
-- README changes
-
-##### 9.22.3
-
 - Add Trusted Types support ([shhnjk](https://github.com/shhnjk) - [#1614](https://github.com/bvaughn/react-virtualized/pull/1614))
 
 ##### 9.22.2
